@@ -1,0 +1,36 @@
+.product-card {
+    border-radius: 5px;
+    transition: box-shadow 0.3s;
+}
+
+.product-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+    height: auto;
+    border-radius: 5px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+
+.product-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.product-price {
+    font-size: 16px;
+    color: #007bff;
+}
+
+.product-description {
+    display: none;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.product-card:hover .product-description {
+    display: block;
+}
